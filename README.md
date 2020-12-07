@@ -2,7 +2,7 @@
 
 ### Objectifs :
 
->1.Mettre en oeuvre les technologies web pour créer et héberger mon portfolio
+1. Mettre en oeuvre les technologies web pour créer et héberger mon portfolio
 
 
 
@@ -14,7 +14,7 @@
   - **GitHub** : Forge logicielle en ligne utilisant Git
   <br>
   
-2.Pour l'épreuve E6
+2. Pour l'épreuve E6
 
   - Je me présente et présente mon parcours, j'affiche mon CV
   - Je parle des projets que j'ai réalisé, je bascule sur les pages correspondantes
