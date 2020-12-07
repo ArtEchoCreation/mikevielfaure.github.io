@@ -3,6 +3,7 @@
 ### Objectifs :
 
 1.Mettre en oeuvre les technologies web pour créer et héberger mon portfolio
+[![netbeans](https://fr.wikipedia.org/wiki/NetBeans#/media/Fichier:Apache_NetBeans_Logo.svg, New Mexico by Beau Rogers")]
 
 - **NetBeans** : Environnement de développement intégré (IDE) utilisé pour ce projet
 - **HTML** : Langage de description utilisé pour concevoir les pages web
