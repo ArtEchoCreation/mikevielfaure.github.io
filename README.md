@@ -12,7 +12,7 @@
   - **Boostrap** : Framework graphique utilisé pour faciliter la création de page web (utilisation d'une base de règles de CSS existantes)
   - **Git** : Logiciel de gestion de version
   - **GitHub** : Forge logicielle en ligne utilisant Git
-  
+  <br>
   
 2.Pour l'épreuve E6
 
