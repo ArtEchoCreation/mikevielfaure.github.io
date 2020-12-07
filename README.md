@@ -21,5 +21,5 @@
   - Je parle des stages que j'ai effectué et des projets auxquels j'ai participé, je bascule sur les pages correspondantes
   - Je présente mes bonnes pratiques :
         - Respect des normes et des standards
-        - auto-Formation
+        - Auto-Formation
 
