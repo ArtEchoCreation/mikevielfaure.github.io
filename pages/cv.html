@@ -14,8 +14,7 @@
         <link rel="icon" href="favicon.ico">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
               rel="stylesheet">
-        <link href="CSS/accueil.css" rel="stylesheet">
-        <link href="../CSS/cv.css" rel="stylesheet">
+        <link href="../css/cv.css" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
@@ -26,11 +25,11 @@
                 <a class="navbar-brand" href="#">Mon portfolio</a>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active nav-item">
-                            <a href="index.html" class="nav-link"><span class="fa fa-home"></span> Accueil</a>
-                        </li>
                         <li class="nav-item">
-                            <a href="pages/cv.html" class="nav-link"><span class="fa fa-id-badge"></span> CV</a>
+                            <a href="../index.html" class="nav-link"><span class="fa fa-home"></span> Accueil</a>
+                        </li>
+                        <li class="active nav-item">
+                            <a href="cv.html" class="nav-link"><span class="fa fa-id-badge"></span> CV</a>
                         </li>
                         <li class="dropdown nav-item">
                             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button">
@@ -79,25 +78,26 @@
         <div class="jumbotron"><!-- Emplacement pour le contenu principal de la page -->
             <div class="container">
                 <div class="row cadreCV">
-                    <div id='cv-entete' class="text-center">
-                        <div id='cv-photo'>
-                            <img src="../images/AmeliaPilou.jpg" alt="ma photo d'identité">
+                    <div id="cv-entete" class="text-center">
+                        <div id="cv-photo">
+                            <img src="../images/AmeliaPilou.jpg" alt="Ma photo d'identité">
                         </div>
-                        <div id='cv-intro'>
-                            <h1>Bonjour, je m'appelle Amélia et voici mon CV</h1>
+                        <div id="cv-intro">
+                            <h1>Bonjour, je m'appelle <span>Amélia</span> et voici mon CV</h1>
                         </div>
                     </div>
                 </div>
-                <div class='row cadreCV'>
-                    <div class='col-xs-12 col-sm-7'>
-                        <!-- partie de gauche -->
-                        <div class='rubrique clearfix'>
-                            <h2><span class="fa fa-comment"></span>En quelques mots...</h2><!-- comment -->
-                            <p>J'ai 21 ans, j'habite Toulon et je suis passionnée d'informatique et de nouvelles technologies depuis mon plus
-                                jeune âge. Je suis actuellement un BTS Services Informatiques aux Organisations ce qui m'a décidé à aller 
-                                au dela de la passion, afin de faire de l'informatique et plus particulièrement du dévellopement d'applications,
-                                mon métier&nbsp;!
-                            </p>
+                <div class="row cadreCV">
+                    <div class="col-12 col-md-7">
+                        <!-- Partie gauche -->
+                        <div class="rubrique clearfix">
+                            <h2><span class="fa fa-comment"></span> En quelques mots...</h2>
+                            <p>J'ai 21 ans, j'habite Toulon et je suis passionnée d'informatique
+                                et de nouvelles technologies depuis mon plus jeune âge. Je suis actuellement
+                                un BTS Services Informatiques aux Organisations ce qui m'a décidé
+                                à aller au delà de la passion, afin de faire de l'informatique
+                                et plus particulièrement du développement d'applications,
+                                mon métier&nbsp;!</p>
                         </div>
                         <div class="rubrique clearfix">
                             <h2><span class="fa fa-graduation-cap"></span> Parcours scolaire</h2>
@@ -272,56 +272,17 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="rubrique clearfix">
+                            <h2><span class="fa fa-music"></span> Passions</h2>
+                            <div class="passion"> <span class="fa fa-heart"></span> Sécurité</div>
+                            <div class="passion"> <span class="fa fa-heart"></span> Dév. Web</div>
+                            <div class="passion"> <span class="fa fa-heart"></span> Dév. Android</div>
+                            <div class="passion"> <span class="fa fa-heart"></span> Projets</div>
+                            <div class="passion"> <span class="fa fa-heart"></span> Running</div>
+                            <div class="passion"> <span class="fa fa-heart"></span> Lecture</div>
+                            <div class="passion"> <span class="fa fa-heart"></span> Musique</div>
+                        </div>
                     </div>
-                    <div id="langues" class="rubrique clearfix">
-                                <h2><span class="fa fa-flag"></span> Langue</h2>
-                                <div class="container">
-                                    <div class="langue">Français</div>
-                                    <div class="niveau">
-                                        <span class="badge badge-dark">A1</span>
-                                        <span class="badge badge-dark">A2</span>
-                                        <span class="badge badge-dark">B1</span>
-                                        <span class="badge badge-dark">B2</span>
-                                        <span class="badge badge-dark">C1</span>
-                                        <span class="badge badge-success">C2</span>
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="langue">Anglais</div>
-                                    <div class="niveau">
-                                        <span class="badge badge-dark">A1</span>
-                                        <span class="badge badge-dark">A2</span>
-                                        <span class="badge badge-dark">B1</span>
-                                        <span class="badge badge-dark">B2</span>
-                                        <span class="badge badge-success">C1</span>
-                                        <span class="badge badge-dark">C2</span>
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="langue">Portugais</div>
-                                    <div class="niveau">
-                                        <span class="badge badge-dark">A1</span>
-                                        <span class="badge badge-dark">A2</span>
-                                        <span class="badge badge-dark">B1</span>
-                                        <span class="badge badge-dark">B2</span>
-                                        <span class="badge badge-success">C1</span>
-                                        <span class="badge badge-dark">C2</span>
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="langue">Espagnol</div>
-                                    <div class="niveau">
-                                        <span class="badge badge-dark">A1</span>
-                                        <span class="badge badge-dark">A2</span>
-                                        <span class="badge badge-success">B1</span>
-                                        <span class="badge badge-dark">B2</span>
-                                        <span class="badge badge-dark">C1</span>
-                                        <span class="badge badge-dark">C2</span>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                    
                 </div>
             </div>
         </div>

@@ -1,36 +1,49 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 8 Dec 2020, 14:23:22
-    Author     : vielf
-*/
-body{padding-top:50px;}
-.cadreCV{ padding-bottom: 15px; background: white; }
+body { padding-top: 50px; }
+.cadreCV { padding-bottom: 15px; background: white; }
 
-/***************************************************
-*           En-tête du CV
-***************************************************/
-#cv-entete { margin-top: -45px; width: 100%; }
-#cv-photo { width: 172px; height: 172px; border-radius: 50%; overflow: hidden; padding: 5px;
-            background: #eee; display: inline-block; }
-#cv-photo img { width: 160px; height: 160px; border-radius: 50%;}
-#cv-intro h1 { margin: 0; padding: 0; font-size: 2.4em; font-weight: 700; 
-               letter-spacing: -1px;}
-#cv-intro h1 span { color: rgb(226,0,26);}
-#cv-intro::after {background: url('images/ligne.png'); width: 100%; height: 3px; margin-top: 15px; 
-                  content: ''; display: block;}
+/****************************************
+*     Entête du CV
+****************************************/
+#cv-entete { margin-top: -45px; width: 100%;}
 
+#cv-photo {
+    width: 172px;
+    height: 172px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+    background: #eee;
+    display: inline-block;
+}
+#cv-photo img { width: 160px; height: 160px; border-radius: 50%; }
 
-/****************************************************
-*           Rubriques
-****************************************************/
-.rubrique{ margin-bottom: 15px; }
-.rubrique h2{ color: rgb(226,0,26);}
+#cv-intro h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.4em;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+#cv-intro h1 span { color: rgb(226,0,26); }
+
+#cv-intro::after {
+    background: url('images/ligne.png'); /* Dossier "images" est un
+                                            sous-dossier de "css" (à créer) */
+    width: 100%;
+    height: 3px;
+    margin-top: 15px;
+    content: '';
+    display: block;
+}
+
+/****************************************
+*     Rubriques
+****************************************/
+.rubrique { margin-bottom: 15px; }
+.rubrique h2 { color: rgb(226,0,26); }
 .rubrique h2::before{ margin-right: 5px; }
-.rubrique p{ font-size: 1.3em; line-height: 1.5em;}
+.rubrique p{ font-size: 1.3em; line-height: 1.5em; }
 
 /******************************************
 *     Parcours scolaire
@@ -67,7 +80,6 @@ body{padding-top:50px;}
                              #parcours .details { width: 87%; }
 }
 
-
 /******************************************
 *     Expériences professionnelles
 ******************************************/
@@ -95,15 +107,7 @@ body{padding-top:50px;}
   -ms-filter: grayscale(0);
   -o-filter: grayscale(0);
 }
-
 /******************************************
-*     Langues
-******************************************/
-#langues .container { display: flex; flex-direction: row; justify-content: space-between; }
-#langues .langue { font-size: 1em; padding-top: 3px; width: min-content; display: flex; }
-#langues .niveau { font-size: 1.2em; }
-
-/*****************************************
 *     Compétences 
 ******************************************/
 #competences .container { display: flex; flex-direction: row; justify-content: space-between; }
@@ -118,3 +122,17 @@ body{padding-top:50px;}
 #competences .container .classement3 { background-position: 0 -56px; }
 #competences .container .classement4 { background-position: 0 -28px; }
 #competences .container .classement5 { background-position: 0 0px; }
+
+/******************************************
+*     Langues
+******************************************/
+#langues .container { display: flex; flex-direction: row; justify-content: space-between; }
+#langues .langue { font-size: 1em; padding-top: 3px; width: min-content; display: flex; }
+#langues .niveau { font-size: 1.2em; }
+
+/******************************************
+*     Passions
+******************************************/
+.passion{ color: #fff; display: inline-block; margin-right: 5px;
+          margin-bottom: 5px; padding: 5px 5px 5px 5px; background: #000;
+          position: relative; font-size: 1.2em; border-radius: 10px; }
